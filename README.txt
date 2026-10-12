@@ -1,26 +1,27 @@
-RGA WEBSITE DEMO — Rakesh Giri & Associates
+RAKESH GIRI & ASSOCIATES — WEBSITE PACKAGE
 
-FILES
+PAGES
 - index.html: Home
 - about.html: About
 - services.html: Services
 - appointments.html: Appointment request
 - contact.html: Contact/enquiry
 - style.css: Shared responsive design
-- script.js: Navigation and email request form
-- assets/rga-logo.png: Logo cropped from supplied invoice
-- assets/ca-profile.jpg: Photo supplied in chat
+- script.js: Email request form and navigation behavior
+- rga-logo.png: Logo cropped from the invoice supplied in chat
+- ca-profile.jpg: Photo supplied in chat
 
-HOW TO PREVIEW
-Open index.html in a browser. Internet is required for Google Fonts and the external hero background image.
+IMPORTANT FILE STRUCTURE
+Upload all files listed above to the repository ROOT (same level). The HTML uses rga-logo.png and ca-profile.jpg directly from the root; do not put them only inside an assets folder.
 
-HOW TO PUBLISH ON GITHUB PAGES
-Upload all files and the assets folder to the repository root. Keep the file/folder structure unchanged. Enable GitHub Pages from Settings > Pages and select the main branch/root.
+PUBLISH ON GITHUB PAGES
+1. Extract this ZIP.
+2. Upload/replace all files in your repository root, including both image files.
+3. Commit changes and wait for GitHub Pages to redeploy.
+4. Open the website and press Ctrl+F5 to refresh cached files.
 
-IMPORTANT BEFORE PUBLIC LAUNCH
-1. Logo is cropped from the provided invoice image; replace with original high-resolution logo if available.
-2. Confirm the firm name, address, email, phone and photo permissions. Contact details are based on the invoice provided.
-3. Service descriptions are draft website copy and must be approved by the firm. The invoice supports “Fee for Audit & Assurance” only; other listed categories are placeholders for approval.
-4. Appointment form does NOT store data or book a confirmed slot. It opens the visitor's email app and prepares a request to rakeshgiriassociates@gmail.com. A backend or booking service is required for automatic booking, availability calendar, confirmation emails and secure storage.
-5. No confidential client or financial information should be entered into a public website demo.
-6. Review professional/CA advertising and website compliance requirements with the firm before publishing.
+FUNCTIONALITY NOTES
+- Appointment/enquiry forms open the visitor's email application; they do not save requests to a database or confirm bookings.
+- Hero background images and fonts load from external internet services.
+- Confirm the firm's approved services, credentials, contact details, logo and photo permissions before public launch.
+- Review applicable professional and CA website/advertising rules with the firm before publishing.
