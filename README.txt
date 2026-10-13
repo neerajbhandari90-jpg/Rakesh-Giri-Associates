@@ -1,11 +1,27 @@
-IIGM UNIVERSITY-STYLE MULTI-PAGE TEMPLATE
+RAKESH GIRI & ASSOCIATES — WEBSITE PACKAGE
 
-Includes Home, About, Leadership, Campus, Programmes, Undergraduate, Postgraduate, Diploma/Certificate, Fees/Scholarships, Admissions, How to Apply, Eligibility, FAQs, Results demo, Student Corner, Notices, Downloads, Academic Calendar, Research, Gallery, Contact, Privacy and Terms.
+PAGES
+- index.html: Home
+- about.html: About
+- services.html: Services
+- appointments.html: Appointment request
+- contact.html: Contact/enquiry
+- style.css: Shared responsive design
+- script.js: Email request form and navigation behavior
+- rga-logo.png: Logo cropped from the invoice supplied in chat
+- ca-profile.jpg: Photo supplied in chat
 
-IMPORTANT: This is a template, not proof of university status or course approval. Replace all sample contact details, fees, dates, leadership, affiliations, facilities and course information with verified official details. Enquiry form prepares an email draft only. Results page is a demo; real results, admin login, manual entry and Excel import require a secure backend/database, authentication, access rules, validation, audit trail and backups. Never put admin secrets in public code. Graphic gallery panels are not real campus photos. Preserve folder structure when uploading.
+IMPORTANT FILE STRUCTURE
+Upload all files listed above to the repository ROOT (same level). The HTML uses rga-logo.png and ca-profile.jpg directly from the root; do not put them only inside an assets folder.
 
-RESULT PORTAL DEMO
-- Open results/index.html and use one of the fictional sample logins shown on the page.
-- Sample records are for visual/testing purposes only and are NOT official academic records.
-- Print / Save as PDF creates a browser print preview with a visible DEMO / NOT OFFICIAL watermark.
-- This is a static browser demo, not a secure live result database. Do not add real student data to public JavaScript.
+PUBLISH ON GITHUB PAGES
+1. Extract this ZIP.
+2. Upload/replace all files in your repository root, including both image files.
+3. Commit changes and wait for GitHub Pages to redeploy.
+4. Open the website and press Ctrl+F5 to refresh cached files.
+
+FUNCTIONALITY NOTES
+- Appointment/enquiry forms open the visitor's email application; they do not save requests to a database or confirm bookings.
+- Hero background images and fonts load from external internet services.
+- Confirm the firm's approved services, credentials, contact details, logo and photo permissions before public launch.
+- Review applicable professional and CA website/advertising rules with the firm before publishing.
